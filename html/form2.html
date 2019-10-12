@@ -1,0 +1,44 @@
+<html>
+    <head>
+     <title>HERO</title>
+     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+     <link rel="manifest" href="site.webmanifest">
+    </head>
+    <body>
+        <form>
+          <fieldset style="width: 500px;background-color:darkgray">
+            <legend>personal info</legend>
+           first name : <br />
+           <input type="text" /><br />
+           last name : <br />
+           <input type="text" /><br />
+           <hr />
+           I Agree
+           <input type="checkbox" /><br /><br />
+           <input name="intrest" type="radio" /> intrested
+           <input name="intrest" type="radio" /> not intrested <br /><br />
+           os : <select name="os">
+               <option value="linux">linux</option>
+               <option value="mac">mac</option>
+               <option value="windows">windows</option>
+               <option value="other">other</option>
+           </select><br /><br />
+           <textarea name="address" style="widows: 700px;height: 100px;">
+           </textarea><br />
+           <input type="submit" /><br /><br />
+           your coding skills : <br /><br />
+           <input list="skill" name="skill" />
+           <datalist id="skill">
+               <option value="Great!">
+               <option value="Good">
+               <option value="Not Bad">
+               <option value="Bad">
+           </datalist> <input type="submit" /><br />
+           <p><b>Note : </b>Please be honest about your skills .</p> <br /><br />
+           <input type="button" onclick="alert('Thank you for your time .')" value="submit information " />
+         </fieldset>     
+        </form>
+    </body>
+</html>
