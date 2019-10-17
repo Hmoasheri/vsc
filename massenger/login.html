@@ -1,24 +1,54 @@
 <html>
     <head>
-    <link href="login.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-     <title>Sign Up</title>
-     <link rel="apple-touch-icon" sizes="180x180" href="docs/apple-touch-icon.png">
-     <link rel="icon" type="image/png" sizes="32x32" href="docs/favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="docs/favicon-16x16.png">
-     <link rel="manifest" href="docs/site.webmanifest">
+     <title>Login</title>
+     <style>
+       body{
+         background-image: url(https://wallpaperaccess.com/full/48074.jpg);
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         align-items: center;
+       }
+       .log{
+        padding: 40px;
+        background-color:cornflowerblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius:30px;
+       }
+       .loginbutton{
+         font-size: large;
+         border-radius:10px;
+       }
+       .sp{
+         font-size: x-large;
+       }
+       .b1{
+         font-size: x-large;
+       }
+       .signlink{
+         font-size: x-large;
+         color: red;
+       }
+
+
+     </style>
     </head>
     <body>
-        <form>
-          <fieldset class="info-box">
-            <br />
-           Username:<br />
-           <input type="text" /><br /><br />
-           Password:<br />
-           <input type="password" /><br /><br />
-           <br />
-           <a class="loginlink" href="login.html" target="_blank" >login</a>
-         </fieldset>     
-        </form>
+      <div class="log">
+      <br />
+      <span class="sp">Username:</span><br />
+      <input type="text" /><br /><br />
+      <span class="sp">Password:</span><br />
+     <input type="password" /><br /><br />
+      <br />
+      <input type="button" value="Login" class="loginbutton" />
+      <br /><br />
+      <b class="b1">Creat an Account ? </b><a class="signlink" href="sign.html" target="_blank" >Sign up</a>
+      </div>
     </body>
 </html>

@@ -1,0 +1,70 @@
+<html>
+ <head>
+  <title>Sign up</title>
+  <style>
+      body{
+          background-image: url(https://wallpaperaccess.com/full/48074.jpg);
+          background-size: cover;
+          background-position: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      body>div{
+          padding: 30px;
+          background-color:cornflowerblue;
+          width: 300px;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+          justify-content:space-evenly;
+          align-items: center;
+          border-radius:30px; 
+      }
+      .l1{
+         color:rgb(39, 0, 148);
+         font-size:large;
+         border-style: solid;
+         padding: 10px;
+         border-radius:20px;
+        }
+        .info-box {
+         text-align: center;
+         border:none;
+        }
+        .submit-button{
+            font-size: large;
+        }
+        .sp{
+            font-size:x-large;
+        }
+ </style>
+</head>
+<body>
+    <div class="flex-container">
+        <form>
+          <fieldset class="info-box">
+            <br />
+            <span class="sp">first name :</span> <br />
+           <input type="text" /><br />
+           <span class="sp">last name :</span> <br />
+           <input type="text" /><br />
+           <hr />
+          <span class="sp">E-mail:</span>
+           <br />
+           <input type="email" /><br /><br />
+           <span class="sp">Username:</span><br />
+           <input type="text" /><br /><br />
+           <span class="sp">Password:</span><br />
+           <input type="password" /><br /><br />
+           <span class="sp">Phone Number:</span><br />
+           <input type="number" /><br /><br />
+           <input class='submit-button' type="button" onclick="alert('Thank you for your time .')" value="submit information " /><br /><br />
+           <br /> <b> Already have an Account? </b>
+           <a class="loginlink" href="login.html" target="_blank" >login</a>
+         </fieldset>     
+        </form>
+    </div>
+ </body>    
+</html>
