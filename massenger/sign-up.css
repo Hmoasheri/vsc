@@ -1,0 +1,33 @@
+legend{
+    color:rgb(39, 0, 148);
+    font-size:large;
+    border-style: solid;
+    padding: 3px;
+    background-color: coral;
+}
+.info-box {
+    background-color:#0fa;
+    text-align: center;
+    padding: 50px ;
+    width: 300px;
+    margin:auto;
+    margin-top:100px;
+    border-radius: 30px;
+}
+ .submit-button{
+    font-size: large;
+ }
+ body{
+    background-image: url(https://wallpaperaccess.com/full/48074.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+.loginlink{
+    text-decoration: none;
+    color:black;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(44, 253, 96);
+    padding: 10px 30px ;
+    border-radius: 10px
+}

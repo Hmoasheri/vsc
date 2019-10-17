@@ -1,9 +1,8 @@
 <html>
     <head>
-    <style>
-        fieldset {text-align: center;}
-    </style>
-     <title>HERO</title>
+    <link href="formstyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <title>Sign Up</title>
      <link rel="apple-touch-icon" sizes="180x180" href="docs/apple-touch-icon.png">
      <link rel="icon" type="image/png" sizes="32x32" href="docs/favicon-32x32.png">
      <link rel="icon" type="image/png" sizes="16x16" href="docs/favicon-16x16.png">
@@ -11,9 +10,10 @@
     </head>
     <body>
         <form>
-          <fieldset text-aling style="width: 500px;background-color:darkgray">
+          <fieldset>
             <legend><b>personal info</b></legend>
-           first name : <br />
+            <br />
+            first name : <br />
            <input type="text" /><br />
            last name : <br />
            <input type="text" /><br />
@@ -27,20 +27,22 @@
                <option value="mac">mac</option>
                <option value="windows">windows</option>
                <option value="other">other</option>
-           </select><br /><br />
+           </select><br /><br />Address:<br />
            <textarea name="address" style="widows: 700px;height: 100px;">
-           </textarea><br />
+           </textarea><br /><br />
            <input type="submit" /><br /><br />
            your coding skills : <br /><br />
-           <input list="skill" name="skill" />
-           <datalist id="skill">
-               <option value="Great!">
-               <option value="Good">
-               <option value="Not Bad">
-               <option value="Bad">
-           </datalist> <input type="submit" /><br />
-           <p><b>Note : </b>Please be honest about your skills .</p> <br /><br />
-           <input type="button" onclick="alert('Thank you for your time .')" value="submit information " />
+            <input list="skill" name="skill" />
+            <datalist id="skill">
+                <option value="Great!">
+                <option value="Good">
+                <option value="Not Bad">
+                <option value="Bad">
+            </datalist> <input type="submit" /><br />
+           <p><b>Note : </b>Please be honest about your skills .</p> <br />
+           <input class='submit-button' type="button" onclick="alert('Thank you for your time .')" value="submit information " /><br /><br />
+           <br />
+           <a class="googlelink" href="www.google.com" target="_blank" >Contact Us</a>
          </fieldset>     
         </form>
     </body>

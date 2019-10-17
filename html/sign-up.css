@@ -1,0 +1,28 @@
+legend{
+    color:rgb(39, 0, 148);
+    font-size:large;
+    border-style: solid;
+    padding: 3px;
+    background-color: coral;
+}
+.info-box {
+    background-color:#0fa;
+    margin:auto;
+    margin-top:100px;
+}
+ .submit-button{
+    font-size: large;
+ }
+ body{
+    background-image: url(https://wallpaperaccess.com/full/48074.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+.googlelink{
+    text-decoration: none;
+    color: aliceblue;
+    border-style: solid;
+    background-color: blueviolet;
+    padding: 5px 5px ;
+    border-radius: 10px
+}
