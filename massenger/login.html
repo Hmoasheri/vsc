@@ -9,7 +9,6 @@
          display: flex;
          flex-direction: column;
          justify-content: space-evenly;
-         align-items: center;
        }
        .log{
         padding: 40px;
@@ -19,6 +18,9 @@
         justify-content: space-evenly;
         align-items: center;
         border-radius:30px;
+        width: 300px;
+        height: 450px;
+        margin: auto;
        }
        .loginbutton{
          font-size: large;
@@ -34,17 +36,44 @@
          font-size: x-large;
          color: red;
        }
+       .corner{
+         background-color: cornflowerblue;
+         display: flex;
+         flex-direction: row;
+         justify-content:space-between;
+         align-items:center;
+         padding: 20px;
+         
+
+       }
+       .dis{
+         font-size: large;
+       }
+       .about{
+         background-color: chocolate;
+         padding: 10px;
+       }
+       .about>a{
+         color: black;
+         text-decoration: none;
+       }
 
 
      </style>
     </head>
     <body>
+      <div class="corner">
+        <strong class="dis">Fast as Possible , Simple as Possible</strong>
+        <div class="about">
+          <a href="about.html" target="_blank">Abot us</a>
+        </div>
+      </div>
       <div class="log">
       <br />
       <span class="sp">Username:</span><br />
       <input type="text" /><br /><br />
       <span class="sp">Password:</span><br />
-     <input type="password" /><br /><br />
+      <input type="password" /><br /><br />
       <br />
       <input type="button" value="Login" class="loginbutton" />
       <br /><br />
